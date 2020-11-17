@@ -1,0 +1,439 @@
+@charset "utf-8";@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+	
+--color-negro: #363636;
+	
+--color-verde: #3ce2ad;
+	
+--color-gris: #f4f4f4;
+	
+--color-verde-precios: #00FFDB;
+	
+--color-azul: #0078aa; 
+	
+--fondo-footer: #1c1c1c; 
+	
+--color-letra-footer: #bbb;
+	
+--color-blanco: #fff;
+}	
+
+
+.titulo{
+	
+	font-family: Roboto;
+}
+
+.contenido{
+	
+	font-family: Montserrat;
+}
+
+body{
+	font-family: 'Monsterrat';
+	font-size: 14px;
+	color: #363636;
+}
+
+h1,p{
+	font-family: 'Montserrat';
+	color:#363636;
+}
+
+li{
+	font-family: 'Roboto';
+	
+	text-transform: lowercase;
+	font-size: 16px;
+	color: #363636;
+}
+
+
+#header{
+	
+	font-weight: 900;
+	color: var(--color-negro);
+	font-size: 30px;
+	letter-spacing: 15%;
+	
+	
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	
+}
+
+.header-area.sticky{
+	background-color: #fff!important;
+	}
+
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+}
+
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-azul-oscuro);
+}
+
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+}
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-azul-oscuro);
+}
+.header-area.sticky .navbar-light .navbar-brand {
+	color: var(--color-negro);
+}
+
+#hero{
+	background-image: url("../img/bg-hero.jpg");
+	background-size: cover;
+	text-align: left;
+	height: 100%vh;
+	color: white;
+	padding: 10%;
+
+}
+
+#hero h1{
+	
+	padding-top: 10%;
+	font-weight: bolder;
+	
+}
+
+#hero h2{
+	
+	font-size: 10px;
+	color: var(--color-negro);
+}
+
+.circulo{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	line-height: 100px;
+	/*border: 1px solid #DDDDDD;*/
+	display: block;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	box-shadow: 0px 0px 5px 2px #dddd;
+	font: normal;
+	font-size: 30px;
+	padding-top: -200px;
+	color: #FFFFFF;
+	background: #00FFDB;
+	margin-right: 20px;
+	padding-left: 10px;
+	
+	
+	
+
+	
+}
+	
+#contact{
+	
+	margin-top: 7%;
+	border-radius: 50%;
+}
+
+#contact h1{
+	
+	font-size: 40px;
+	color: var(--color-azul);
+}
+
+#contact h3{
+	
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-bottom: 5%;
+}
+
+#contact p{
+	
+	color: var(--color-negro);
+	font-size: 13px;
+}
+
+.btn-more-info {
+	color: black;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+ background-color: var(--color-blanco);
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 10px 30px;
+   
+
+
+}
+
+.btn-more-info:hover{
+	font-family: 'Montserrat';
+	text-transform: lowercase;
+	background-color: var(--color-negro);
+	color: var(--color-blanco);
+	
+}
+
+
+.azulito{
+	
+	background-color: #07FCF0;
+}
+
+.azulitoclaro{
+	
+	background-color: #7AACDB;
+}
+
+.btn-more-info{
+	
+	font-family: 'Montserrat';
+	font-size: 12px;
+	
+}
+
+#contact i{
+	
+	font-size: 55px;
+	text-align: center;
+	color: var(--color-azul);
+}
+
+
+#products{
+	background-color: #FEFDFD;
+	padding: 30px 0;
+}
+#products h2{
+	font-family: 'Roboto';
+	color: #29373c;
+	padding-top: 20px;
+    font-size: 35px;
+	text-align: left;
+}
+#products h3{
+	font-family: 'montserrat';
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	text-align: left;
+	color: #29373c;
+    font-size: 15px;
+	
+}
+
+.btn-dentist:hover{
+	background: var(--color-azul);
+	transition: all 0.8s ease-in-out;
+	color: var(--color-blanco);
+}
+
+.btn-dentist{
+	background: var(--color-verde);
+	font-family: "Monserrat";
+	color: aliceblue;
+	}
+
+
+.btn-primary:hover{
+	background-color:#d4fdfe ;
+}
+
+#products{
+	background-color: #FEFDFD;
+	padding: 30px 0;
+}
+#products h2{
+	color: #29373c;
+	font-family: 'Roboto';
+	padding-top: 20px;
+	text-align: left;
+    font-size: 35px;
+}
+#products h3{
+	font-family: 'montserrat';
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	text-align: left;
+    font-size: 15px;
+	color: #29373c;
+}
+
+#help {
+	text-align: center;
+	font-family: 'Roboto';
+	padding: 70px;
+	background-image: url("../img/bg-rectangle.jpg");
+	background-size: cover;
+	height: 100%vh;
+	
+}
+#help .row{
+	background-color: #fff;
+	box-sizing: content-box;
+}
+
+#help h4{
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-bottom: 10px;
+	color: var(--color-negro);
+	
+}
+#help p{
+	font-family: 'Montserrat';
+    font-size: 12px;
+	text-align: left;
+}
+#help h3{
+	font-family: 'Roboto';
+   font-size: 20px;
+	text-align: left;
+}
+#help .info-review{
+	background-color: #fff;
+	padding: 35px 20px;
+	box-shadow: 0px 0px 10px 2px #283ea7;
+}
+
+#jennad{
+padding:20px 0px 50px 200px;
+}
+
+#jennad h2{
+	font-family: 'Roboto';
+	padding-top: 30px;
+}
+#jennad h3{
+	color: #29373c;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-bottom: 20px;
+	
+}
+
+#products .tab-content{
+	
+	padding: 40px 0;
+}
+
+#products .nav-tabs a{
+	
+
+	color:var(--color-principal);
+	font-size: 19px;
+	border: 0;
+	border-radius: 0;
+	padding: 5px 10px;
+}
+
+#products .nav-tabs a.active{
+	
+	background-color: var(--color-verde);
+	color: var(--color-principal);
+	
+	
+	
+}
+
+
+#products .nav-tabs{
+	box-shadow: 0px 0px 10px 0px #ddd;
+	
+	
+	
+}
+
+.btn-primary {
+	color:#fff ;
+	font-family: 'Roboto' ;
+	background-color: #3ce2ad;
+	font-size: 15px;
+	border-radius: 40px; 
+	font-weight: 400;
+}
+
+.btn-primary:hover{
+	background-color:#d4fdfe ;
+}
+
+#numbers h3{
+	
+	padding: 20px;
+	font-size: 70px;
+}
+
+#numbers h4{
+	
+	
+	color: var(--color-negro);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 15px;
+	
+}
+
+#numbers{
+	
+	text-align: center;
+	color: var(--color-negro);
+}
+
+
+#pricing{
+	
+	margin-top: 10%;
+	background-image: url("../img/bg-offers.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	
+}
+
+#pricing h1{
+	
+	text-align: center;
+	
+}
+
+#pricing h1{
+	
+	text-align: center;
+	
+}
+
+
+#contact{
+	
+	margin-bottom: 3%;
+}
+
+#contact .azulito{
+	margin-bottom: 3%;
+	
+}
+
+#contact .azulitoclaro{
+	margin-bottom: 3%;
+	margin-top: 5%;
+	
+}
